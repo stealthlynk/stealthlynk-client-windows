@@ -23,22 +23,28 @@ StealthLynk Client is a desktop application for Windows users to connect to the 
 - **Automatic Updates**: Seamless application updates
 - **Security**: Enterprise-grade encryption and privacy protection
 
-## Development
+## 🔧 Development Setup
 
 ### Prerequisites
-- Node.js 16+ 
-- Windows 10+ 
-- Administrator privileges for network operations
+- Node.js 18+ and npm
+- Windows 10/11 (for Windows-specific features)
+- Administrator privileges (for system-level operations)
 
-### Setup
+### Installation
 ```bash
 npm install
-npm start
 ```
 
-### Building
+### Development Mode
+```bash
+npm run dev
+```
+
+### Build for Production
 ```bash
 npm run build
+```
+```bash
 npm run package
 ```
 
